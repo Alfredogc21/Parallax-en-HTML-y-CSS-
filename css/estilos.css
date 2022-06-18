@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorMenu {
+    background-color: slateblue;
+}
+
+.menu {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.menu:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.contenedorHeader {
+    display: flex;
+    justify-content: space-evenly;
+    background-attachment: fixed;
+    height: 500px;
+    background-color: #f1f1f1;
+    background-image: linear-gradient( rgba(207, 220, 20, 0.301), rgba(105, 90, 205, 0.384)), url("../imagenes/carro1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0.1px;
+}
+
+.info {
+    background-color: slateblue;
+    width: 50%;
+    height: 420px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.info h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    text-shadow: 1px 1px 20px black;
+}
+
+.info p {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.altura {
+    height: 500px;
+}
